@@ -1,0 +1,30 @@
+<odoo>
+    <data>
+
+          <record id="course0" model="academy.course">
+
+            <field name="name">Course 0</field>
+
+            <field name="description">Course 0's description
+              Can have multiple lines
+            </field>
+
+          </record>
+
+          <record id="course1" model="academy.course">
+
+            <field name="name">Course 1</field>
+
+            <field name="description">Course 1's description
+              Can have multiple lines
+            </field>
+
+          </record>
+
+          <record model="academy.course" id="course2">
+            <field name="name">Course 2</field>
+            <field name="description">Course 2's description</field>
+          </record>
+
+    </data>
+</odoo>
